@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+  overflow-x: hidden;
+}
+
+.header,.footer{
+        width: 100%;
+}
+
+.footer{
+  height: auto;
+  bottom: 0;
+  border: 1px solid #000000;
+  margin: auto;
+}
+
+.header{
+  height: auto;
+  flex: 0 1 auto;
+  top:0;
+}
+
+.content{
+  background-image: url(../src/assets/img/home/6.png);
+  background-size: cover;
+  width: 100%;
+  padding: 20px 3px;
+  display: flex;
+  flex: 1;
+}
+
+.wrapper{ 
+  display: flex;
+  flex-direction: column;
+  height:100%;
+
+}
+
+.cont{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top:0;
+}
+
+

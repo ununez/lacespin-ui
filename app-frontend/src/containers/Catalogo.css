@@ -1,0 +1,9 @@
+.MenuLateral{
+    align-content: flex-start;
+    text-align: left;
+}
+
+#loading{
+    width: 3rem;
+    height:3rem;
+}

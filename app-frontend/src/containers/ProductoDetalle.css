@@ -1,0 +1,30 @@
+#nota{
+    color:red;
+    font-style: italic;
+    text-align: justify;
+}
+#nombreProducto{
+    margin-left: 20px;
+}
+
+#btnConfig{
+    font-size: 15px;
+}
+.itemdesc{
+    text-align: left;
+}
+
+#btnAdd{
+    font-size: 15px;
+}
+
+.itemKey{
+    font-weight: bold;
+    font-size: medium;
+}
+
+#cantidad{
+    font-size:15px;
+    width:100px;
+    height:30px;
+}

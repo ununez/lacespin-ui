@@ -1,0 +1,70 @@
+#mainDetail{
+    width: 100%;
+    border-radius: 10px;
+    margin:25px;
+}
+
+#btnEnviar{
+    display: flow-root;
+    float: right;
+    width: 10em;
+}
+
+.btn-glyphicon { padding:8px; margin-right:4px; font-size: 15px !important; }
+.icon-btn {  border-radius:50px; font-size: 15px;}
+
+.cotRow{
+    text-align: left;
+    font-size: 15px;
+    display: flow-root;
+}
+
+.cotCol{
+    max-width:100% ;
+    font-size: 15px;
+}
+.cotInput{
+    font-size: 15px;
+    border-radius:5px;
+    height: 2em;
+}
+#cotForm{
+    width:100%;
+}
+.cot_Mensaje{
+    font-size: 15px;
+    border-radius: 5px;
+    height: 5em;
+}
+
+.alert{
+    width: 100%;
+}
+#btnCerrarError{
+    font-size: 15px;
+}
+
+#btnCerrarSuccess{
+    font-size: 15px;
+}
+.btnDeleteContainer{
+    display: flex;
+    align-items: center;
+}
+
+.colDel{
+    display: flex;
+}
+.colName{
+    align-self: center;
+    text-align: justify;
+}
+#total{
+    margin:5px;
+    flex-flow: row-reverse;
+}
+
+#loading{
+    width: 3em;
+    height: 3em;
+}

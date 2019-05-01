@@ -1,0 +1,52 @@
+.Icon path{
+    fill:#0e51dd;
+    text-align: center;
+    
+}
+
+.Icon {
+    height: 50px;
+    width: 50px;
+    padding-bottom: 5px;
+}
+
+.desc{
+    display: block;
+}
+
+.parr{
+    text-align: justify;
+    margin: 5px;
+    background-color: #0e51dd1c;
+    border-radius: 5%;
+    
+    font-size: medium;
+    color: #0e51dd;
+}
+
+.parr_Title{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: block;
+    color: #0e51dd;
+}
+
+.parr_Icon{
+    display: block;
+
+}
+
+
+
+.mensaje{
+    text-align: justify;
+    background-color: #0e51dd1c;
+    font-size: medium;
+    color: #0e51dd;
+    border-radius: 5px;
+}
+.parr_mensaje{
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin: 5px;
+}

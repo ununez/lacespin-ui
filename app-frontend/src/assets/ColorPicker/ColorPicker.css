@@ -1,0 +1,33 @@
+.grouped{
+    display: flex;
+    align-items: flex-start;
+}
+
+.hole{
+    border:5px solid darkgray;
+    border-radius:50%;
+    width: 60px;
+    height:60px;
+    display: inline-block;
+    margin: 5px;
+}
+
+.circle{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: inline-flex;
+    margin-bottom: 1em;
+    border:1px solid gray;
+    margin-right: 5px;
+}
+
+.circle-Picker{
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    background-color: white;
+}
+
+

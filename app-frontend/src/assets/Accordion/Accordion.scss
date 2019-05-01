@@ -1,0 +1,104 @@
+.preg_container {
+    min-height: 100%;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    h1 {
+      text-align: center;
+      color: #1569a8;
+    }
+    
+    .btn {
+      display: inline-block;
+      margin-bottom: 20px;
+      border: 1px solid #1569a8;
+      background: white;
+      color: #1569a8;
+      padding: 5px 10px;
+      border-radius: 5px;
+      margin-right: 5px;
+      font-size: 15px;
+      cursor: pointer;
+      outline: none;
+      
+      &:hover {
+        background: #1569a8;
+        color: white;
+        transition: .5s;
+      }
+    }
+  }
+
+.accordion {
+    margin: 0 auto;
+    width: 80%;
+    
+    .preg_title {
+      padding: 30px 30px;
+      cursor: pointer;
+      transform: translate3d(0, 0, 0);
+      color: white;
+      position: relative;
+      font-size: 20px;
+      background: #1569a8;
+      margin-bottom: -1px;
+      border-bottom: 1px solid #0e4671;
+      text-align: left;
+      border-radius: 10px;
+      &::after {
+        content: "+";
+        font-size: 18px;
+        color: white;
+        transition: transform .5s ease-in-out;
+        position: absolute;
+        right: 30px;
+        font-family: monospace;
+      }
+
+
+  
+      &.is-expanded {
+        transition: background .5s;
+        background: #0e4671;
+        
+        &::after {
+          content: "-";
+          transform: rotate(-360deg);
+        }
+      }
+    }
+  
+    .preg_content {
+      overflow: hidden;
+      max-height: 0;
+      transition: max-height .5s;
+      margin: 0;
+      padding: 0 30px;
+      border: solid 1px #eeeeee;
+      border-top: 0;
+      background: #e8f4fc;
+      text-align: justify;
+      p {
+        padding: 30px 0;
+        margin: 0;
+        opacity: 0;
+        transition: .5s;
+      }
+      
+      &.is-expanded {
+        max-height: 500px;
+        overflow: hidden;
+        p {
+          opacity: 1;
+        }
+      }
+    }
+    
+    &:after {
+      width: 100%;
+      height: 10px;
+      display: block;
+      background: #0e4671;
+      content: '';
+    }
+  }
