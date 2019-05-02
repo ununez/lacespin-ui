@@ -1,4 +1,4 @@
-const api_base="http://localhost:5000/api"
+const api_base="http://192.168.99.100/api"
 export default{
      col_api_url:api_base+"/colores",
      prod_api_url: api_base+"/productos",
