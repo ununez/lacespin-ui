@@ -63,13 +63,13 @@ function PrecioDiamante(grosor,longitud){
         case "10":
             return (2*(1.3244*longitud-0.0519));
         case "12":
-            return (2*(1.1625*longitud-1.0167));
+            return (2*(1.5544*longitud-0.0911));
         case "14":
             return (2*(1.784423*longitud+0.231410));
         case "16":
-            return (2*(1.1625*longitud-1.0167));
+            return (2*(1.0144*longitud-0.3717));
         case "18":
-            return (2*(1.1625*longitud-1.0167));
+            return (2*(2.2445*longitud-0.5121));
         default:
             return 0;
     }
