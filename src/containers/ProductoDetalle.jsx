@@ -153,7 +153,7 @@ class ProductoDetalle extends Component {
                    </OwlCarousel>
                 </Row>
                 <Row id="nota">
-                    <p>*Las imagenes son con propósitos de una aproximación al color y calidad que pretendemos, más sin embargo el tono puede variar.</p>
+                    <p>*Las imagenes son con propósitos de una aproximación al color y calidad que pretendemos, sin embargo el tono puede variar.</p>
                 </Row>
                 </Col>
                 <Col >
